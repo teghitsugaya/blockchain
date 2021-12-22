@@ -16,15 +16,7 @@ public class BlockcainApplication {
 		int numberOfBlock = 100000;
 		int nonce = 1342;
 		String[] data = new String[]{
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 1",
-				"Transaksi 2"
+			"This is Our Transaction Simulation"
 		};
 
 		runningBlock(data, "MD5", numberOfBlock, nonce);
